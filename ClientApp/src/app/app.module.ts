@@ -35,8 +35,8 @@ import { VideoComponent } from './video/video.component';
     MaterialModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'project', component: ProjectExplantionComponent }
-      { path: 'video', component: VideoComponent }
+      { path: 'project', component: ProjectExplantionComponent },
+      { path: 'video', component: VideoComponent },
       { path: 'team', component: TeamComponent }
     ])
   ],
